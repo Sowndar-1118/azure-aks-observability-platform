@@ -39,6 +39,11 @@ jobs:
           resource-group: aks-observability-rg
           cluster-name: aks-observability-cluster
 
+      - name: Apply Kubernetes Manifests
+        run: |
+          kubectl apply -f kubernetes/deployment.yaml
+          kubectl apply -f kubernetes/service.yaml
+
       - name: Update Deployment Image
         run: |
           kubectl set image deployment/aks-observability-app aks-observability-app=${{ secrets.ACR_LOGIN_SERVER }}/aks-observability:${{ github.sha }}
