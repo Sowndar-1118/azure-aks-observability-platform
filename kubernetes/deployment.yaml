@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: aks-observability-app
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: aks-observability-app
+
+  template:
+    metadata:
+      labels:
+        app: aks-observability-app
+
+    spec:
+      containers:
+      - name: aks-observability-app
+
+        image: REPLACE_LATER
+
+        ports:
+        - containerPort: 5000
