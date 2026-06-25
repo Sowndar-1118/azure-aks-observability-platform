@@ -5,7 +5,7 @@ metadata:
   name: aks-observability-app
 
 spec:
-  replicas: 2
+  replicas: 3
 
   selector:
     matchLabels:
@@ -20,7 +20,8 @@ spec:
       containers:
       - name: aks-observability-app
 
-        image: REPLACE_LATER
+        image: sowndaracr001.azurecr.io/aks-observability:77e8884847f7155951d077d38b3f80c9c3ce6423
 
         ports:
         - containerPort: 5000
+
