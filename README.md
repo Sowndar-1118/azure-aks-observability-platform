@@ -113,7 +113,19 @@ azure-aks-observability-platform/
 │   ├── grafana/
 │   └── prometheus/
 │
-└── README.md
+├── screenshots/
+│   ├── ACR.png
+│   ├── AKS-Cluster.png
+│   ├── Github-Actions-Successful-Pipeline.png
+│   ├── Github-Repository.png
+│   ├── Grafana-Dashboard.png
+│   ├── Kubectl-Pods.png
+│   ├── Prometheus-Targets.png
+│   └── Python-Flask-Application.png
+│
+├── .gitignore
+├── README.md
+└── venv/
 ```
 
 ---
