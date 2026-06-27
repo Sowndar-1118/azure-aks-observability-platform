@@ -188,6 +188,39 @@ Grafana dashboards provide visibility into:
 
 ## Project Screenshots
 
+### GitHub Repository
+
+![GitHub Repository](screenshots/Github-Repository.png)
+
+### GitHub Actions Successful Pipeline
+
+![GitHub Actions Successful Pipeline](screenshots/Github-Actions-Successful-Pipeline.png)
+
+### Azure Container Registry
+
+![Azure Container Registry](screenshots/ACR.png)
+
+### Azure Kubernetes Service
+
+![AKS Cluster](screenshots/AKS-Cluster.png)
+
+
+### Kubernetes Pods
+
+![Kubernetes Pods](screenshots/Kubectl-Pods.png)
+
+### Python Flask Application
+
+![Python Flask Application](screenshots/Python-Flask-Application.png)
+
+### Prometheus Targets
+
+![Prometheus Targets](screenshots/Prometheus-Targets.png)
+
+### Grafana Dashboard
+
+![Grafana Dashboard](screenshots/Grafana-Dashboard.png)
+
 
 
 ---
